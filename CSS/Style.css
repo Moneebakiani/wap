@@ -1,0 +1,45 @@
+body{
+background-color: #000;
+color: #fff;
+}
+h1,h2{
+    color: #66fcf1;
+}
+span{
+    color: #f7a202;
+}
+.imgset
+{
+    width:400px;
+    height:300px;
+}
+.floatleft
+{
+    float: left;
+}
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .decoration
+  {
+      list-style-type: none;
+  }
+  .decoration li{
+    list-style-type: none;
+    
+  }
+  .alist
+  {
+      color: red;
+  }
+  .alist:link{
+      color: red;
+  }
+  .alist:hover{
+    color:  #66fcf1;
+  }
+  
+  
