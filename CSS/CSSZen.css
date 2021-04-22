@@ -96,7 +96,12 @@ h3{
   .column2 li{
       list-style-type: none;
       margin-bottom: 25px;
+      padding-right: 30px;
     
+  }
+  hr
+  {
+      margin-bottom: 25px;
   }
   .column2 li a{
     color: #fff;
@@ -115,11 +120,7 @@ h3{
   display: table;
   clear: both;
 }
-hr{
-   
-    padding-right: 30px;
-    margin-bottom: 25px;
-}
+
 footer{
     background-color:#3e454d ;
     padding: 50px;
@@ -127,9 +128,11 @@ footer{
 }
 footer a i{
     margin-right: 50px;
-    font-size:48px !important;
     color:#c8d94d;
+    
+    
 }
+
 
 footer a i:hover{
     color: #5c6269;
@@ -140,6 +143,6 @@ footer a i:hover{
       width:100%;
     }
     footer a i{
-        font-size:28px !important;
+        font-size: 12px;
     }
 }
