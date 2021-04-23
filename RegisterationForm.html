@@ -40,16 +40,17 @@
                     <label for="institute">Company/Institution:</label>
                 </div>
                 <div class="col-75">
-                    <input type="text" id="institute" name="institute">
+                    <input type="text" id="institute" name="institute" required>
                 </div>
                 
             </div>
+
             <div class="row1">
                 <div class="col-25">
                     <label for="address">Address:</label>
                 </div>
                 <div class="col-75">
-                    <textarea id="address" name="address" style="height: 100px;"></textarea>
+                    <textarea id="address" name="address" style="height: 100px;" required></textarea>
                 </div>
                 
             </div>
@@ -63,21 +64,135 @@
                 </div>
                 
             </div>
+
+            <div class="row1">
+                <div class="col-25">
+                    <label for="state">State/Province/Region:</label>
+                </div>
+                <div class="col-75">
+                    <select id="state" name="state">
+                        <option disabled selected>Select</option>
+                        <option value="Iowa">Iowa</option>
+                        <option value="Southcarolina">South Carolina</option>
+                        <option value="Northcarolina">North Carolina</option>
+                    </select>
+                </div>
+                
+            </div>
+
+            <div class="row1">
+                <div class="col-25">
+                    <label for="country">Country:</label>
+                </div>
+                <div class="col-75">
+                    <select id="country" name="country">
+                        <option disabled selected>Select</option>
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                    </select>
+                </div>
+                
+            </div>
+
+            <div class="row1">
+                <div class="col-25">
+                    <label for="email">Email:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="email" name="email" required>
+                </div>
+                
+            </div>
+
+            <div class="row1">
+                <div class="col-25">
+                    <label for="phone">Phone Number:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="phone" name="phone" required>
+                </div>
+                
+            </div>
            
           
     </div>
     <div class="col2">
+        <p>Lunch</p>
+        <div class="row1">
+            <div class="col-25">
+                <label for="meal">Meal Prefrence:</label>
+            </div>
+            <div class="col-75">
+                <select id="meal" name="meal">
+                    <option disabled selected>Select</option>
+                    <option value="veggie">Vegeterian</option>
+                    <option value="nonveggie">Non Vegeterian</option>
+                </select>
+            </div>
+            
+        </div>
+
+        <p>Payment Details</p>
+  
+
+        <div class="row1">
+            <div class="col-25">
+                <label for="payment">Payment Mode:</label>
+            </div>
+            <div class="col-75">
+                <input type="checkbox" id="cash" name="cash" value="cash">
+                <label for="cash">Cash</label><br>
+                <input type="checkbox" id="cheque" name="cheque" value="cheque">
+                <label for="cheque">Cheque</label><br>
+                <input type="checkbox" id="draft" name="draft" value="draft">
+                <label for="draft">Demand Draft</label>
+            </div>
+            
+        </div>
+
+        <div class="row1">
+            <div class="col-25">
+                <label for="DD">DD/Cheque No.</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="DD" name="DD">
+            </div>
+            
+        </div>
+
+        <div class="row1">
+            <div class="col-25">
+                <label for="drawn">Drawn On(Bank Name)</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="drawn" name="drawn">
+            </div>
+            
+        </div>
+
+        <div class="row1">
+            <div class="col-25">
+                <label for="payable">Payable at</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="payable" name="payable">
+            </div>
+            
+        </div>
+
 
     </div>
 </div>
+
+<div class="footer">
+    <input type="submit" id="submit" name="Submit">
+    <input type="reset" id="reset" name="Reset">
+</div>
+
 </form>
 </main>
 
-<!-- <footer>
-        <a href="https://validator.w3.org/nu/?doc=https://moneebakiani.github.io/wap/index.html"> <img src="./images/w3c-html.png" alt="html validator"/></a>
-        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://moneebakiani.github.io/wap/aboutme.html"> <img src="./images/css_checker.png" alt="html validator"/></a>
-
-</footer>   -->
 
 </body>
 </html>

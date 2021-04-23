@@ -9,11 +9,13 @@ main{
 .row {  
     display: flex;
     flex-wrap: wrap;
+    
   }
 .row1 {  
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 15px;
+    
   }
 .col1{
     flex:50%;
@@ -21,7 +23,7 @@ main{
 .col2{
     flex:50%;
 }
-.col1 p{
+p{
     text-decoration: underline;
 }
 .col-25{
@@ -30,3 +32,30 @@ main{
 .col-75{
     flex:25%;
 }
+.footer{
+    background-color: grey;
+    text-align: center;
+}
+.footer input{
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    margin: 10px;
+}
+label{
+    font-weight: 700;
+}
+input[type=text], select, textarea {
+    width: 80%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  @media screen and (max-width: 700px) {
+    .row, .row1 {   
+      flex-direction: column;
+    }
+  }
