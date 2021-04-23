@@ -1,5 +1,32 @@
 .topbar{
     background-color: cadetblue;
     color: #000;
-    padding: 20px 0px 20px 0px;
+    padding: 5px 0px 5px 5px;
+}
+main{
+    padding: 5px;
+}
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+.row1 {  
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+  }
+.col1{
+    flex:50%;
+}
+.col2{
+    flex:50%;
+}
+.col1 p{
+    text-decoration: underline;
+}
+.col-25{
+    flex:25%;
+}
+.col-75{
+    flex:25%;
 }
