@@ -40,12 +40,15 @@ public class HelloServlet extends HttpServlet {
         {
             session.setAttribute("score",score+1);
         }
-        req.setAttribute("question", ques.get(count).element);
-        req.setAttribute("answer", ques.get().answer);
-        if(count<ques.size()-1)
+        count++;
+        System.out.println(count);
+//        req.setAttribute("answer", ques.get(count+1).answer);
+        if(count<ques.size()) {
+            req.setAttribute("question", ques.get(count).element);
             req.getRequestDispatcher("WEB-INF/index.jsp").forward(req, resp);
-        else//Last question
-            req.getRequestDispatcher("WEB-INF/index.jsp").forward(req, resp);
+        }
+        else
+            req.getRequestDispatcher("WEB-INF/result.jsp").forward(req, resp);
 
     }
 

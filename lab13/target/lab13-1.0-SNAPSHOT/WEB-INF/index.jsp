@@ -11,7 +11,7 @@
 </p>
 <p>Guess the next number in sequence</p>
 <p>${question}</p>
-<form action="hello-servlet">
+<form action="hello-servlet" method="post">
     <label>Your answer:</label>
     <input type="text" name="answer"><br/><br/>
     <button>Submit</button>
